@@ -123,7 +123,7 @@ export const MenuDropdown = () => {
     <>
       <Box position="relative" ref={ref}>
         <NavIcon isActive={isOpen} onClick={toggleOpen}>
-          <EllipsisIcon width={20} height={20} />
+          <EllipsisIcon width={1} height={1} />
         </NavIcon>
 
         {isOpen && (
